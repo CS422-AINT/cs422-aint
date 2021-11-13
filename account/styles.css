@@ -1,0 +1,29 @@
+
+.accountContainer {
+
+    display: flex;
+
+    flex-direction: column ;
+
+    background-color: #F1F1F1;
+    align-items: center;
+    width: 50%;
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+    
+}
+.accountContainer input{
+    margin: 5px;
+}
+
+.topLeft {
+    align-self: flex-start ;
+}
+
+survey {
+    width: 90%;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  }
