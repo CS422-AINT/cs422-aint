@@ -1,11 +1,3 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-  }
-html{
-    background-color:#eee;
-}
 .container{
 margin: 20px auto;
 width:400px;
@@ -30,4 +22,25 @@ grid-row-gap: 20px;
     font-size:40px;
     font-family:sans-serif;
 }
-  
+
+.accountContainer {
+
+    display: flex;
+
+    flex-direction: column ;
+
+    background-color: #F1F1F1;
+    align-items: center;
+    width: 50%;
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+    
+}
+.accountContainer input{
+    margin: 5px;
+}
+
+.topLeft {
+    align-self: flex-start ;
+}
