@@ -3,11 +3,69 @@
 
 <head>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 </head>
 <body>
-
-<h1 style = "text-align: center" >Tax Info</h1>
-<input type="button" value="Go back!" onclick="history.back()">
-
+  <h1 style = "text-align: center" >Tax Info</h1>
+  <div class="homeButton">
+    <a href="homepage.html" class="btn btn-secondary" id="btn-secondary">Go back!</a>
+  </div> 
+  <br>
+  <div class="card text-center">
+    <div class="class-header">
+      <button class="btn btn-secondary">Tax Information</button>
+      <button class="btn btn-secondary">Payment Method</button>
+    </div>
+    <div class="card-body">
+      <div style="text-decoration: underline;">2021 Federal Income Tax Brackets:</div>
+      <div>Single Filers:</div>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Tax Rate</th>
+            <th scope="col">Taxable Income Bracket</th>
+            <th scope="col">Tax Owed</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">10%</th>
+            <td>$0 - $9950</td>
+            <td>10%</td>
+          </tr>
+          <tr>
+            <th scope="row">12%</th>
+            <td>$9951 - $40525</td>
+            <td>$995 + 12%</td>
+          </tr>
+          <tr>
+            <th scope="row">22%</th>
+            <td>$40526 - $86375</td>
+            <td>$4664 + 22%</td>
+          </tr>
+          <tr>
+            <th scope="row">24%</th>
+            <td>$86376 - $164925</td>
+            <td>$14751 + 24%</td>
+          </tr>
+          <tr>
+            <th scope="row">32%</th>
+            <td>$164926 - $209425</td>
+            <td>$33603 + 32%</td>
+          </tr>
+          <tr>
+            <th scope="row">35%</th>
+            <td>$209426 - $523600</td>
+            <td>$47842 + 35%</td>
+          </tr>
+          <tr>
+            <th scope="row">37%</th>
+            <td>$523601 - $∞</td>
+            <td>$157804.25 + 37%</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
 </body>
 </html>
